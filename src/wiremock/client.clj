@@ -24,3 +24,7 @@
   (let [body (json/generate-string mapping)
         url (str admin-base-url "/mappings/new")]
     (client/post url { :body body })))
+
+(defn reset []
+  (let [url (str admin-base-url "/reset")]
+    (client/post url)))
