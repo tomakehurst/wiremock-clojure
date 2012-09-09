@@ -1,2 +1,3 @@
 # WireMock Clojure Client
 
+A faltering first attempt at a clojure API for WireMock. My first ever Clojure project so I'm sure it's utter crap. Hopefully it'll get better over time.
